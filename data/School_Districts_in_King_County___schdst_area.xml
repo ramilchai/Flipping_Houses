@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20140828</pubdate>
+                <title>School Districts in King County / schdst_area</title>
+                <edition>One</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>King County</publish>
+                </pubinfo>
+                <othercit>None</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=9f03d5f2bb24491ab9e9ffea1a9b83a4</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=05d243e41a134f9689a78331b86a66e1</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=schdst</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data layer describes school districts within King County.</abstract>
+            <purpose>This data layer was created to describe the school districts of King County</purpose>
+            <supplinf>None</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20160329</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.542574</westbc>
+                <eastbc>-121.061526</eastbc>
+                <northbc>47.788424</northbc>
+                <southbc>47.073882</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>districts_OpenData</themekey>
+                <themekey>schdst</themekey>
+                <themekey>levy</themekey>
+                <themekey>taxation</themekey>
+                <themekey>district</themekey>
+                <themekey>school</themekey>
+                <themekey>schdst_area</themekey>
+                <themekey>kingcounty_opendata</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>Pacific NW</placekey>
+                <placekey>King County</placekey>
+                <placekey>Washington state</placekey>
+                <placekey>WA</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Elections</cntorg>
+                    <cntper>Dave Wilson</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>919 SW Grady Way</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98057</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4115</cntvoice>
+                <cntemail>dave.wilson@kingcounty.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/schdst.jpg</browsen>
+            <browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+            <browset>JPG</browset>
+        </browse>
+        <native>Esri ArcGIS 10.1.1.3143</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Convert and update metadata</procdesc>
+                <procdate>20120901</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Post entire District set for year 2016</procdesc>
+                <procdate>20150908</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.DISTRICT.xxxx1348255</enttypl>
+                <enttypd>Polygon features</enttypd>
+                <enttypds>ESRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature Geometry</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape.area</attrlabl>
+                <attrdef>Feature area</attrdef>
+                <attrdefs>ESRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Shape.len</attrlabl>
+                <attrdef>Perimeter of polygon feature</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Perimeter automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SCHDST</attrlabl>
+                <attrdef>School district short number consistent with the numbering system provided for by the Washington Administrative Code and the superintendent of public instruction.  An exception occurs where a school district overlaps 2 counties and is a duplicated number. In this case, Fife School District (417) overlaps the Pierce-King County line and creates a duplication of district number.  Here Fife School District has been assigned the non-duplicate number of 888.  See DSTNUM field for the county-school district designation.</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>001</edomv>
+                        						
+                        <edomvd>Seattle</edomvd>
+                        						
+                        <edomvds>King County</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_area_1</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_len_1</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>DSTNUM</attrlabl>
+                <attrdef>School district long number consistent with the numbering system provided for by the Washington Administrative Code (WAC) and the superintendent of publc instruction.  Including the two digit prefix for county identifier makes all values in DSTNUM unique.  The prefix for King County is 17 and for Pierce County; 27.  This makes Northshore School District 417 (DSTNUM 17417) distinguishable from Pierce County Fife School District 417 (DSTNUM 27417), which overlaps into King County.</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>17001</edomv>
+                        						
+                        <edomvd>Seattle</edomvd>
+                        						
+                        <edomvds>King County</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>District name</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>Seattle</edomv>
+                        						
+                        <edomvd>Seattle 001</edomvd>
+                        						
+                        <edomvds>King County</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>Cheryl Wilder</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-5220</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/district/shapes/polygon/schdst.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - &lt;http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx&gt;</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20160331</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Elections</cntorg>
+                    <cntper>Dave Wilson</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>919 SW Grady Way</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98057</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4115</cntvoice>
+                <cntemail>dave.wilson@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
